@@ -1,0 +1,17 @@
+$name idec
+
+.use_rs1        1
+.use_rs2        1
+.use_rd         1
+.use_imm        1
+.read_mem       1
+.write_mem      1
+.opcode         `opcode_width
+.type           `inst_type_signal_width
+.rs1_addr       `reg_addr_width
+.rs2_addr       `reg_addr_width
+.rd_addr        `reg_addr_width
+.imm            `imm_width
+.value          `value_width
+.npc            `pc_width
+

@@ -1,0 +1,9 @@
+$name readbus_ctl
+
+.use_addr	1		`read_ports
+.use_iq_pos	1		`read_ports
+
+.addr		`reg_addr_width	`read_ports
+.iq_pos		`iq_addr_width	`read_ports
+#.imm		`word_size	`read_ports
+

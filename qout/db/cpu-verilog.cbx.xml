@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="cpu-verilog">
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpu|alu:alus[1].alu|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_9lh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpu|alu:alus[2].alu|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_8lh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpu|alu:alus[1].alu|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_8lh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpu|alu:alus[2].alu|lpm_add_sub:Add1" CBX_FILE_NAME="add_sub_9lh.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|cpu|lpm_add_sub:Add0" CBX_FILE_NAME="add_sub_u8h.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

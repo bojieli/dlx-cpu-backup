@@ -1,0 +1,312 @@
+Analysis & Synthesis report for cpu
+Mon Jun 03 18:04:41 2013
+Version 6.0 Build 178 04/27/2006 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Analysis & Synthesis Source Files Read
+  5. Analysis & Synthesis Resource Usage Summary
+  6. Analysis & Synthesis Resource Utilization by Entity
+  7. General Register Statistics
+  8. Analysis & Synthesis Messages
+  9. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2006 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                           ;
++-----------------------------+------------------------------------------+
+; Analysis & Synthesis Status ; Successful - Mon Jun 03 18:04:41 2013    ;
+; Quartus II Version          ; 6.0 Build 178 04/27/2006 SJ Full Version ;
+; Revision Name               ; cpu                                      ;
+; Top-level Entity Name       ; cpu                                      ;
+; Family                      ; Stratix                                  ;
+; Total logic elements        ; 0                                        ;
+; Total pins                  ; 2                                        ;
+; Total virtual pins          ; 0                                        ;
+; Total memory bits           ; 0                                        ;
+; DSP block 9-bit elements    ; 0                                        ;
+; Total PLLs                  ; 0                                        ;
+; Total DLLs                  ; 0                                        ;
++-----------------------------+------------------------------------------+
+
+
++--------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                ;
++--------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                             ; Setting            ; Default Value      ;
++--------------------------------------------------------------------+--------------------+--------------------+
+; Top-level entity name                                              ; cpu                ; cpu                ;
+; Family name                                                        ; Stratix            ; Stratix            ;
+; Use smart compilation                                              ; Off                ; Off                ;
+; Restructure Multiplexers                                           ; Auto               ; Auto               ;
+; Create Debugging Nodes for IP Cores                                ; Off                ; Off                ;
+; Preserve fewer node names                                          ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                          ; Off                ; Off                ;
+; Verilog Version                                                    ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                       ; VHDL93             ; VHDL93             ;
+; State Machine Processing                                           ; Auto               ; Auto               ;
+; Extract Verilog State Machines                                     ; On                 ; On                 ;
+; Extract VHDL State Machines                                        ; On                 ; On                 ;
+; Add Pass-Through Logic to Inferred RAMs                            ; On                 ; On                 ;
+; DSP Block Balancing                                                ; Auto               ; Auto               ;
+; Maximum DSP Block Usage                                            ; Unlimited          ; Unlimited          ;
+; NOT Gate Push-Back                                                 ; On                 ; On                 ;
+; Power-Up Don't Care                                                ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                       ; Off                ; Off                ;
+; Remove Duplicate Registers                                         ; On                 ; On                 ;
+; Ignore CARRY Buffers                                               ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                             ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                              ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                          ; Off                ; Off                ;
+; Ignore LCELL Buffers                                               ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                     ; Off                ; Off                ;
+; Optimization Technique -- Stratix/Stratix GX                       ; Balanced           ; Balanced           ;
+; Carry Chain Length -- Stratix/Stratix GX/Cyclone/MAX II/Cyclone II ; 70                 ; 70                 ;
+; Auto Carry Chains                                                  ; On                 ; On                 ;
+; Auto Open-Drain Pins                                               ; On                 ; On                 ;
+; Remove Duplicate Logic                                             ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                              ; Off                ; Off                ;
+; Perform gate-level register retiming                               ; Off                ; Off                ;
+; Allow register retiming to trade off Tsu/Tco with Fmax             ; On                 ; On                 ;
+; Auto ROM Replacement                                               ; On                 ; On                 ;
+; Auto RAM Replacement                                               ; On                 ; On                 ;
+; Auto DSP Block Replacement                                         ; On                 ; On                 ;
+; Auto Shift Register Replacement                                    ; On                 ; On                 ;
+; Auto Clock Enable Replacement                                      ; On                 ; On                 ;
+; Allow Synchronous Control Signals                                  ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                             ; Off                ; Off                ;
+; Auto RAM Block Balancing                                           ; On                 ; On                 ;
+; Auto Resource Sharing                                              ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                 ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                 ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                      ; Off                ; Off                ;
+; Maximum Number of M512 Memory Blocks                               ; Unlimited          ; Unlimited          ;
+; Maximum Number of M4K Memory Blocks                                ; Unlimited          ; Unlimited          ;
+; Maximum Number of M-RAM Memory Blocks                              ; Unlimited          ; Unlimited          ;
+; Ignore translate_off and translate_on Synthesis Directives         ; Off                ; Off                ;
+; Show Parameter Settings Tables in Synthesis Report                 ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                 ; Off                ; Off                ;
+; Retiming Meta-Stability Register Sequence Length                   ; 2                  ; 2                  ;
+; PowerPlay Power Optimization                                       ; Normal compilation ; Normal compilation ;
+; HDL message level                                                  ; Level2             ; Level2             ;
++--------------------------------------------------------------------+--------------------+--------------------+
+
+
++-------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                ;
++----------------------------------+-----------------+-----------+--------------------------------------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type ; File Name with Absolute Path         ;
++----------------------------------+-----------------+-----------+--------------------------------------+
+; cpu.v                            ; yes             ; Other     ; //202.38.93.121/dlx/merge/prep/cpu.v ;
++----------------------------------+-----------------+-----------+--------------------------------------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Total logic elements                        ; 0     ;
+;     -- Combinational with no register       ; 0     ;
+;     -- Register only                        ; 0     ;
+;     -- Combinational with a register        ; 0     ;
+;                                             ;       ;
+; Logic element usage by number of LUT inputs ;       ;
+;     -- 4 input functions                    ; 0     ;
+;     -- 3 input functions                    ; 0     ;
+;     -- 2 input functions                    ; 0     ;
+;     -- 1 input functions                    ; 0     ;
+;     -- 0 input functions                    ; 0     ;
+;         -- Combinational cells for routing  ; 0     ;
+;                                             ;       ;
+; Logic elements by mode                      ;       ;
+;     -- normal mode                          ; 0     ;
+;     -- arithmetic mode                      ; 0     ;
+;     -- qfbk mode                            ; 0     ;
+;     -- register cascade mode                ; 0     ;
+;     -- synchronous clear/load mode          ; 0     ;
+;     -- asynchronous clear/load mode         ; 0     ;
+;                                             ;       ;
+; Total registers                             ; 0     ;
+; I/O pins                                    ; 2     ;
++---------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                                                                                             ;
++----------------------------+-------------+--------------+-------------+-------+------+--------+--------------+---------+-----------+-----------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+
+; Compilation Hierarchy Node ; Logic Cells ; LC Registers ; Memory Bits ; M512s ; M4Ks ; M-RAMs ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Carry Chain LCs ; Packed LCs ; Full Hierarchy Name ;
++----------------------------+-------------+--------------+-------------+-------+------+--------+--------------+---------+-----------+-----------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+
+; |cpu                       ; 0 (0)       ; 0            ; 0           ; 0     ; 0    ; 0      ; 0            ; 0       ; 0         ; 0         ; 2    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; 0 (0)           ; 0 (0)      ; |cpu                ;
++----------------------------+-------------+--------------+-------------+-------+------+--------+--------------+---------+-----------+-----------+------+--------------+--------------+-------------------+------------------+-----------------+------------+---------------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II Analysis & Synthesis
+    Info: Version 6.0 Build 178 04/27/2006 SJ Full Version
+    Info: Processing started: Mon Jun 03 18:04:37 2013
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
+Warning: Using design file //202.38.93.121/dlx/merge/prep/cpu.v, which is not specified as a design file for the current project, but contains definitions for 12 design units and 12 entities in project
+    Info: Found entity 1: clock_generator
+    Info: Found entity 2: cpu
+    Info: Found entity 3: pc
+    Info: Found entity 4: imem
+    Info: Found entity 5: decoder
+    Info: Found entity 6: decoder_signal_generator
+    Info: Found entity 7: decoder_signal_pack
+    Info: Found entity 8: alu
+    Info: Found entity 9: vreg
+    Info: Found entity 10: vmem
+    Info: Found entity 11: dmem
+    Info: Found entity 12: main
+Info: Elaborating entity "cpu" for the top level hierarchy
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(470): object "should_jump" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(471): object "jump_iq_pos" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(472): object "jump_next_pc" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(485): object "headbit" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(486): object "tailbit" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(509): object "inst_opcode" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(531): object "issuebit_prev" assigned a value but never read
+Warning (10230): Verilog HDL assignment warning at cpu.v(589): truncated value with size 8 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at cpu.v(672): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at cpu.v(673): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at cpu.v(675): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at cpu.v(676): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at cpu.v(692): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at cpu.v(693): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at cpu.v(829): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at cpu.v(827): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at cpu.v(878): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at cpu.v(869): truncated value with size 32 to match size of target (8)
+Warning (10230): Verilog HDL assignment warning at cpu.v(917): truncated value with size 32 to match size of target (3)
+Warning (10230): Verilog HDL assignment warning at cpu.v(935): truncated value with size 32 to match size of target (8)
+Info: Elaborating entity "vreg" for hierarchy "vreg:vreg"
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(1698): object "headbit" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(1698): object "tailbit" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(1698): object "insertbit" assigned a value but never read
+Info: Elaborating entity "alu" for hierarchy "alu:alus[1].alu"
+Info: Elaborating entity "vmem" for hierarchy "vmem:vmem"
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(1816): object "headbit" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(1816): object "tailbit" assigned a value but never read
+Warning (10036): Verilog HDL or VHDL warning at cpu.v(1816): object "insertbit" assigned a value but never read
+Warning (10230): Verilog HDL assignment warning at cpu.v(1862): truncated value with size 32 to match size of target (3)
+Info: Elaborating entity "dmem" for hierarchy "vmem:vmem|dmem:dmem"
+Info: Elaborating entity "pc" for hierarchy "pc:pc"
+Warning (10240): Verilog HDL Always Construct warning at cpu.v(1107): inferring latch(es) for variable "pc_value", which holds its previous value in one or more paths through the always construct
+Info (10041): Verilog HDL or VHDL info at cpu.v(1105): inferred latch for "pc_value[1]"
+Info (10041): Verilog HDL or VHDL info at cpu.v(1105): inferred latch for "pc_value[0]"
+Info: Elaborating entity "imem" for hierarchy "imem:imem"
+Warning (10005): Verilog HDL or VHDL warning at cpu.v(1191): can't check case statement for completeness because the case expression has too many possible states
+Info: Elaborating entity "decoder" for hierarchy "decoder:decoder"
+Info: Elaborating entity "decoder_signal_generator" for hierarchy "decoder:decoder|decoder_signal_generator:decoder_signal_generator"
+Info: Elaborating entity "decoder_signal_pack" for hierarchy "decoder:decoder|decoder_signal_pack:decoder_signal_pack"
+Warning: Port "#1" on the entity instantiation of "vmem" is connected to a signal of width 32. The formal width of the signal in the module is 5.  Extra bits will be driven by GND.
+Warning: The following nets are missing source, defaulting to GND
+    Warning: Net "ctl_bus[47]"
+    Warning: Net "ctl_bus[46]"
+    Warning: Net "ctl_bus[45]"
+    Warning: Net "ctl_bus[44]"
+    Warning: Net "ctl_bus[43]"
+    Warning: Net "ctl_bus[42]"
+    Warning: Net "ctl_bus[41]"
+    Warning: Net "ctl_bus[40]"
+    Warning: Net "ctl_bus[39]"
+    Warning: Net "ctl_bus[38]"
+    Warning: Net "ctl_bus[37]"
+    Warning: Net "ctl_bus[36]"
+    Warning: Net "ctl_bus[35]"
+    Warning: Net "ctl_bus[34]"
+    Warning: Net "ctl_bus[33]"
+    Warning: Net "ctl_bus[32]"
+    Warning: Net "ctl_bus[31]"
+    Warning: Net "ctl_bus[30]"
+    Warning: Net "ctl_bus[29]"
+    Warning: Net "ctl_bus[28]"
+    Warning: Net "ctl_bus[27]"
+    Warning: Net "ctl_bus[26]"
+    Warning: Net "ctl_bus[25]"
+    Warning: Net "ctl_bus[24]"
+    Warning: Net "ctl_bus[23]"
+    Warning: Net "ctl_bus[22]"
+    Warning: Net "ctl_bus[21]"
+    Warning: Net "ctl_bus[20]"
+    Warning: Net "ctl_bus[19]"
+    Warning: Net "ctl_bus[18]"
+    Warning: Net "ctl_bus[17]"
+    Warning: Net "ctl_bus[16]"
+    Warning: Net "ctl_bus[15]"
+    Warning: Net "ctl_bus[14]"
+    Warning: Net "ctl_bus[13]"
+    Warning: Net "ctl_bus[12]"
+    Warning: Net "ctl_bus[11]"
+    Warning: Net "ctl_bus[10]"
+    Warning: Net "ctl_bus[9]"
+    Warning: Net "ctl_bus[8]"
+    Warning: Net "ctl_bus[7]"
+    Warning: Net "ctl_bus[6]"
+    Warning: Net "ctl_bus[5]"
+    Warning: Net "ctl_bus[4]"
+    Warning: Net "ctl_bus[3]"
+    Warning: Net "ctl_bus[2]"
+Warning: Design contains 2 input pin(s) that do not drive logic
+    Warning: No output dependent on input pin "nrst"
+    Warning: No output dependent on input pin "clk"
+Info: Implemented 2 device resources after synthesis - the final resource count might be different
+    Info: Implemented 2 input pins
+    Info: Implemented 0 output pins
+Info: Quartus II Analysis & Synthesis was successful. 0 errors, 81 warnings
+    Info: Processing ended: Mon Jun 03 18:04:41 2013
+    Info: Elapsed time: 00:00:04
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in //202.38.93.121/dlx/merge/prep/cpu.map.smsg.
+
+

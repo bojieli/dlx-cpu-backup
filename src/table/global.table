@@ -1,0 +1,12 @@
+$name global
+
+.nrst	1
+.clk	1
+.head	`iq_addr_width
+.tail	`iq_addr_width
+.headbit	`iq_size
+.tailbit	`iq_size
+.flushbit	`iq_size
+.commitbit	`iq_size
+.insertbit	`iq_size
+

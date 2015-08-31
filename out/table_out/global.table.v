@@ -1,0 +1,21 @@
+`define width_global 0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size+`iq_size+`iq_size
+`define type_global(x) [0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size+`iq_size+`iq_size-1:0] x
+`define form_global [0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size+`iq_size+`iq_size-1:0]
+`define ref_global_nrst(x)  x[0+1-1:0]
+`define global_nrst(x) `ref_global_nrst(x)
+`define ref_global_clk(x)  x[0+1+1-1:0+1]
+`define global_clk(x) `ref_global_clk(x)
+`define ref_global_head(x)  x[0+1+1+`iq_addr_width-1:0+1+1]
+`define global_head(x) `ref_global_head(x)
+`define ref_global_tail(x)  x[0+1+1+`iq_addr_width+`iq_addr_width-1:0+1+1+`iq_addr_width]
+`define global_tail(x) `ref_global_tail(x)
+`define ref_global_headbit(x)  x[0+1+1+`iq_addr_width+`iq_addr_width+`iq_size-1:0+1+1+`iq_addr_width+`iq_addr_width]
+`define global_headbit(x) `ref_global_headbit(x)
+`define ref_global_tailbit(x)  x[0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size-1:0+1+1+`iq_addr_width+`iq_addr_width+`iq_size]
+`define global_tailbit(x) `ref_global_tailbit(x)
+`define ref_global_flushbit(x)  x[0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size-1:0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size]
+`define global_flushbit(x) `ref_global_flushbit(x)
+`define ref_global_commitbit(x)  x[0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size+`iq_size-1:0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size]
+`define global_commitbit(x) `ref_global_commitbit(x)
+`define ref_global_insertbit(x)  x[0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size+`iq_size+`iq_size-1:0+1+1+`iq_addr_width+`iq_addr_width+`iq_size+`iq_size+`iq_size+`iq_size]
+`define global_insertbit(x) `ref_global_insertbit(x)

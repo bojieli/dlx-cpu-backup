@@ -1,0 +1,98 @@
+Flow report for cpu
+Mon Jun 03 18:04:51 2013
+Version 6.0 Build 178 04/27/2006 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2006 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++---------------------------------------------------------------------+
+; Flow Summary                                                        ;
++--------------------------+------------------------------------------+
+; Flow Status              ; Successful - Mon Jun 03 18:04:51 2013    ;
+; Quartus II Version       ; 6.0 Build 178 04/27/2006 SJ Full Version ;
+; Revision Name            ; cpu                                      ;
+; Top-level Entity Name    ; cpu                                      ;
+; Family                   ; Stratix                                  ;
+; Met timing requirements  ; N/A                                      ;
+; Total logic elements     ; 0 / 10,570 ( 0 % )                       ;
+; Total pins               ; 2 / 336 ( < 1 % )                        ;
+; Total virtual pins       ; 0                                        ;
+; Total memory bits        ; 0 / 920,448 ( 0 % )                      ;
+; DSP block 9-bit elements ; 0 / 48 ( 0 % )                           ;
+; Total PLLs               ; 0 / 6 ( 0 % )                            ;
+; Total DLLs               ; 0 / 2 ( 0 % )                            ;
+; Device                   ; EP1S10F484C5                             ;
+; Timing Models            ; Final                                    ;
++--------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/03/2013 18:04:38 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; cpu                 ;
++-------------------+---------------------+
+
+
++--------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                   ;
++-----------------+-------+---------------+-------------+------------+
+; Assignment Name ; Value ; Default Value ; Entity Name ; Section Id ;
++-----------------+-------+---------------+-------------+------------+
+
+
++-------------------------------------+
+; Flow Elapsed Time                   ;
++----------------------+--------------+
+; Module Name          ; Elapsed Time ;
++----------------------+--------------+
+; Analysis & Synthesis ; 00:00:04     ;
+; Fitter               ; 00:00:04     ;
+; Assembler            ; 00:00:02     ;
+; Timing Analyzer      ; 00:00:01     ;
+; Total                ; 00:00:11     ;
++----------------------+--------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
+quartus_fit --read_settings_files=off --write_settings_files=off cpu -c cpu
+quartus_asm --read_settings_files=off --write_settings_files=off cpu -c cpu
+quartus_tan --read_settings_files=off --write_settings_files=off cpu -c cpu --timing_analysis_only
+
+
+

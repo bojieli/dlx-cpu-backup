@@ -1,0 +1,957 @@
+Simulator report for cpu-verilog
+Mon Jun 03 19:48:52 2013
+Version 6.0 Build 178 04/27/2006 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2006 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++----------------------------------------------+
+; Simulator Summary                            ;
++-----------------------------+----------------+
+; Type                        ; Value          ;
++-----------------------------+----------------+
+; Simulation Start Time       ; 0 ps           ;
+; Simulation End Time         ; 1.0 us         ;
+; Simulation Netlist Size     ; 2 nodes        ;
+; Simulation Coverage         ;       0.00 %   ;
+; Total Number of Transitions ; 0              ;
+; Simulation Breakpoints      ; 0              ;
+; Family                      ; FLEX10K        ;
+; Device                      ; EPF10K10LC84-3 ;
++-----------------------------+----------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                ;
++--------------------------------------------------------------------------------------------+--------------------------------------+---------------+
+; Option                                                                                     ; Setting                              ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------------------------+---------------+
+; Simulation mode                                                                            ; Timing                               ; Timing        ;
+; Start time                                                                                 ; 0 ns                                 ; 0 ns          ;
+; Vector input source                                                                        ; \\10.6.0.1\dlx\merge\cpu-verilog.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                   ; On            ;
+; Check outputs                                                                              ; Off                                  ; Off           ;
+; Report simulation coverage                                                                 ; On                                   ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                   ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                   ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                   ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                  ; Off           ;
+; Detect glitches                                                                            ; Off                                  ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                  ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                  ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                  ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                   ; On            ;
+; Trigger vector comparison with the specified mode                                          ; SELECTED_EDGE                        ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                  ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                  ;               ;
+; Glitch Filtering                                                                           ; Off                                  ; Off           ;
++--------------------------------------------------------------------------------------------+--------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;       0.00 % ;
+; Total nodes checked                                 ; 2            ;
+; Total output ports checked                          ; 0            ;
+; Total output ports with complete 1/0-value coverage ; 0            ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++-------------------------------------------------+
+; Complete 1/0-Value Coverage                     ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 6.0 Build 178 04/27/2006 SJ Full Version
+    Info: Processing started: Mon Jun 03 19:48:31 2013
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off cpu -c cpu-verilog
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[0][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[1][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[2][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[3][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[4][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[5][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[6][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg:vreg|regfile[7][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_data[0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_read_en". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_data[0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vmem|phy_write_en". Ignored vector source file node.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[191]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[190]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[189]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[188]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[187]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[186]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[185]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[184]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[183]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[182]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[181]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[180]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[179]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[178]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[177]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[176]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[175]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[174]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[173]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[172]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[171]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[170]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[169]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[168]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[167]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[166]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[165]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[164]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[163]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[162]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[161]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[160]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[159]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[158]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[157]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[156]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[155]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[154]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[153]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[152]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[151]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[150]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[149]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[148]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[147]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[146]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[145]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[144]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[143]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[142]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[141]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[140]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[139]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[138]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[137]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[136]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[135]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[134]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[133]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[132]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[131]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[130]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[129]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[128]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[127]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[126]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[125]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[124]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[123]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[122]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[121]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[120]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[119]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[118]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[117]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[116]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[115]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[114]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[113]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[112]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[111]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[110]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[109]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[108]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[107]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[106]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[105]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[104]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[103]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[102]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[101]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[100]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[99]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[98]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[97]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[96]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[95]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[94]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[93]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[92]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[91]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[90]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[89]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[88]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[87]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[86]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[85]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[84]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[83]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[82]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[81]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[80]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[79]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[78]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[77]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[76]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[75]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[74]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[73]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[72]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[71]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[70]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[69]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[68]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[67]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[66]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[65]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[64]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[63]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[62]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[61]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[60]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[59]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[58]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[57]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[56]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[55]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[54]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[53]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[52]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[51]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[50]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[49]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[48]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[47]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[46]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[45]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[44]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[43]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[42]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[41]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[40]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[39]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[38]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[37]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[36]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[35]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[34]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[33]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[32]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[31]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[30]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[29]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[28]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[27]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[26]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[25]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[24]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[23]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[22]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[21]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[20]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[19]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[18]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[17]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[16]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[15]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[14]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[13]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[12]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[11]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[10]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[9]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[8]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[7]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[6]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[5]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[4]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[3]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[2]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[1]" in design.
+Warning: Ignored node in vector source file. Can't find corresponding node name "vreg|read_data[0]" in design.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[0][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[1][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[2][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[3][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[4][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[5][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[6][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "vreg|rob[7][0]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[31]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[30]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[29]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[28]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[27]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[26]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[25]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[24]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[23]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[22]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[21]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[20]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[19]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[18]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[17]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[16]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[15]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[14]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[13]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[12]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[11]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[10]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[9]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[8]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[7]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[6]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[5]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[4]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[3]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[2]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[1]". Ignored vector source file node.
+Warning: Compiler packed, optimized or synthesized away node "pc_value[0]". Ignored vector source file node.
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is       0.00 %
+Info: Number of transitions in simulation is 0
+Info: Vector file cpu-verilog.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 802 warnings
+    Info: Processing ended: Mon Jun 03 19:48:51 2013
+    Info: Elapsed time: 00:00:20
+
+

@@ -1,0 +1,4 @@
+2013年 06月 03日 星期一 17:50:55 CST
+mkdir -p ../out
+mkdir -p ../out/table_out
+iverilog -E -ov0 -s main -Iinc -Icpum -I../out/table_out -- mod/clock_generator.v mod/cpu.v mod/pc.v mod/imem.v mod/decoder.v mod/decoder_signal_generator.v mod/decoder_signal_pack.v mod/alu.v mod/vreg.v mod/vmem.v mod/dmem.v tmod/0.v

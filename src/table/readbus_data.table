@@ -1,0 +1,4 @@
+$name readbus_data
+
+. `word_size `read_ports
+

@@ -1,0 +1,244 @@
+Version 6.0 Build 178 04/27/2006 SJ Full Version
+39
+2097
+OFF
+OFF
+OFF
+OFF
+OFF
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Partition --
+-- End Partition --
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+cpu
+# storage
+db|cpu.(0).cnf
+db|cpu.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+|
+}
+# end
+# entity
+vreg
+# storage
+db|cpu.(1).cnf
+db|cpu.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+vreg:vreg
+}
+# end
+# entity
+alu
+# storage
+db|cpu.(2).cnf
+db|cpu.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+alu:alus[1].alu
+alu:alus[2].alu
+}
+# end
+# entity
+vmem
+# storage
+db|cpu.(3).cnf
+db|cpu.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+vmem:vmem
+}
+# end
+# entity
+dmem
+# storage
+db|cpu.(4).cnf
+db|cpu.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+vmem:vmem|dmem:dmem
+}
+# end
+# entity
+pc
+# storage
+db|cpu.(5).cnf
+db|cpu.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+pc:pc
+}
+# end
+# entity
+imem
+# storage
+db|cpu.(6).cnf
+db|cpu.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+imem:imem
+}
+# end
+# entity
+decoder
+# storage
+db|cpu.(7).cnf
+db|cpu.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+decoder:decoder
+}
+# end
+# entity
+decoder_signal_generator
+# storage
+db|cpu.(8).cnf
+db|cpu.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+decoder:decoder|decoder_signal_generator:decoder_signal_generator
+}
+# end
+# entity
+decoder_signal_pack
+# storage
+db|cpu.(9).cnf
+db|cpu.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_sensitive
+# source_file
+||202.38.93.121|dlx|merge|prep|cpu.v
+dae4fe18ef7c7af0bf4b35a04ed7d920
+7
+# internal_option {
+AUTO_RESOURCE_SHARING
+OFF
+}
+# hierarchies {
+decoder:decoder|decoder_signal_pack:decoder_signal_pack
+}
+# end
+# complete
+

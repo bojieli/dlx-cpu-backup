@@ -1,0 +1,10 @@
+Fitter Status : Successful - Mon Jun 03 19:48:16 2013
+Quartus II Version : 6.0 Build 178 04/27/2006 SJ Full Version
+Revision Name : cpu-verilog
+Top-level Entity Name : cpu
+Family : FLEX10K
+Device : EPF10K10LC84-3
+Timing Models : Final
+Total logic elements : 0 / 576 ( 0 % )
+Total pins : 2 / 59 ( 3 % )
+Total memory bits : 0 / 6,144 ( 0 % )

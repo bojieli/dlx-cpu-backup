@@ -1,0 +1,39 @@
+$name	cmd
+
+# for debug
+.valid		1
+
+.is_jump	1
+
+.opcode         `opcode_width
+.rs1_addr       `reg_addr_width
+.rs2_addr       `reg_addr_width
+.dep1           `iq_addr_width
+.dep2           `iq_addr_width
+.imm            `imm_width
+.value		`value_width
+
+.a1_use_reg	1
+.a1_use_dep	1
+
+.a2_use_reg	1
+.a2_use_dep	1
+.a2_use_imm	1
+
+.rd_addr        `reg_addr_width
+.reg_we         1
+
+.mem_re         1
+.mem_we         1
+
+.npc		`pc_width
+.pred_npc	`pc_width
+
+.beqz           1
+.bnez           1
+.jmp            1
+.jr             1
+.jal            1
+
+.iq_pos         `iq_addr_width
+

@@ -1,0 +1,11 @@
+# Basic Makefile -- provides explicit rules
+#
+VERILOG = iverilog
+
+VFLAGS = 
+
+main: cpu.v clock_generator.v pc.v mem.v decoder*.v
+	$(VERILOG) -o $@ $(VFLAGS) $^
+
+clean:
+	$(RM) main

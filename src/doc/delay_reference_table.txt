@@ -1,0 +1,4 @@
+pc 5
+imem 10
+decoder 10
+iq-update 5

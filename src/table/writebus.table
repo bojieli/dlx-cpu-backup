@@ -1,0 +1,7 @@
+$name writebus
+
+.we     1               `write_ports
+.addr   `reg_addr_width `write_ports
+.iq_pos `iq_addr_width  `write_ports
+.data   `word_size      `write_ports
+

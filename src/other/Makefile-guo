@@ -1,0 +1,14 @@
+
+
+tables  = $(wildcard *.table)
+
+targets = $(patsubst %.table,%.table.v,$(tables))
+
+default: $(targets)
+
+%.table.v: %.table
+	python ../util/table-generate2.py < $< > $@
+
+clean:
+	rm -f $(targets)
+
